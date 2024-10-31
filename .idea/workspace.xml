@@ -4,7 +4,50 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="07db3083-ecf5-47c1-8463-6265c21df4ff" name="Changes" comment="" />
+    <list default="true" id="07db3083-ecf5-47c1-8463-6265c21df4ff" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.prettierrc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/authAPI.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/moviesAPI.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/userAPI.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/(auth)/layout.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/(auth)/page.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/(auth)/sign-up/page.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/(protected-routes)/create-movie/page.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/(protected-routes)/edit-movie/[id]/page.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/(protected-routes)/layout.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/(protected-routes)/movies-list/page.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/AuthWrapper.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/Button.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/Checkbox.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/DrugDropInput.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/Header.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/Input.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/LogOut.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/MovieCard.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/Pgination.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/forms/SignInForm.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/forms/SignUpForm.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/movieCreateEdit.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/helpers/isFetchBaseQueryError.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/add.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/logout.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/store/provider.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/store/reducers/headerSlice.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/store/reducers/userSlice.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/store/store.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/types/types.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.eslintrc.json" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintrc.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/fonts/GeistMonoVF.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/fonts/GeistVF.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/globals.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/globals.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/layout.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/page.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/next.config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/next.config.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tailwind.config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/tailwind.config.ts" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -21,24 +64,44 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/mac/projects/test/movie-manager/front&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;ts.external.directory.path&quot;: &quot;/Users/mac/projects/test/movie-manager/front/node_modules/typescript/lib&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "/Users/mac/projects/test/movie-manager/front/app/(protected-routes)",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.standard": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.standard": "",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "prettierjs.PrettierConfiguration.Package": "/Users/mac/projects/test/movie-manager/front/node_modules/prettier",
+    "settings.editor.selected.configurable": "settings.javascript.prettier",
+    "ts.external.directory.path": "/Users/mac/projects/test/movie-manager/front/node_modules/typescript/lib",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app/(protected-routes)" />
+      <recent name="$PROJECT_DIR$/store/reducers" />
+      <recent name="$PROJECT_DIR$/components" />
+      <recent name="$PROJECT_DIR$/store" />
+      <recent name="$PROJECT_DIR$/app/api" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app/(protected-routes)/edit-movie/[id]" />
+      <recent name="$PROJECT_DIR$/public/static" />
+      <recent name="$PROJECT_DIR$/components" />
+      <recent name="$PROJECT_DIR$/public" />
+      <recent name="$PROJECT_DIR$/app/(auth)" />
+    </key>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-js-predefined-d6986cc7102b-5c90d61e3bab-JavaScript-WS-242.23339.15" />
+        <option value="bundled-js-predefined-d6986cc7102b-5c90d61e3bab-JavaScript-WS-242.23726.96" />
       </set>
     </attachedChunks>
   </component>
@@ -50,7 +113,17 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1730107925080</updated>
-      <workItem from="1730107926247" duration="1373000" />
+      <workItem from="1730107926247" duration="5436000" />
+      <workItem from="1730120648312" duration="7353000" />
+      <workItem from="1730184377646" duration="186000" />
+      <workItem from="1730185888572" duration="103000" />
+      <workItem from="1730186077201" duration="2893000" />
+      <workItem from="1730191409516" duration="4248000" />
+      <workItem from="1730201032435" duration="1028000" />
+      <workItem from="1730203736918" duration="1266000" />
+      <workItem from="1730274347476" duration="16541000" />
+      <workItem from="1730304738773" duration="15000" />
+      <workItem from="1730358826995" duration="17263000" />
     </task>
     <servers />
   </component>
